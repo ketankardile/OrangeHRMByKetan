@@ -2,6 +2,7 @@ package com.hrm.qa.listener;
 
 import java.io.IOException;
 
+import org.apache.log4j.Logger;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
@@ -9,10 +10,13 @@ import org.testng.ITestResult;
 import com.hrm.qa.base.TestBase;
 import com.hrm.qa.util.TestUtil;
 
+
+
 public class ListenerImplemented extends TestBase implements ITestListener {
 
 	public void onTestStart(ITestResult result) {
 		// TODO Auto-generated method stub
+	
 		System.out.println("Testing test case...." + result.getMethod());	
 	}
 

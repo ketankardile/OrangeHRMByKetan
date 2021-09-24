@@ -1,6 +1,7 @@
 package com.hrm.qa.testcases;
 
 
+
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 
@@ -13,19 +14,20 @@ import com.hrm.qa.pages.LoginPage;
 import com.hrm.qa.util.TestUtil;
 
 
+
 public class LoginPageTest extends TestBase{
 	LoginPage loginPage;
-
-
+	
 
 	public LoginPageTest(){	
 		super();
+		
 	}
 
 
 	@BeforeMethod
 	public void setUp(){
-
+		
 		initialization();
 		loginPage = new LoginPage();	
 	}
@@ -52,8 +54,6 @@ public class LoginPageTest extends TestBase{
 	public Object[][] getCRMTestData(){
 		Object data[][] = TestUtil.getTestData("Sheet1");
 		return data;
-	
-	
 	}
 
 	
