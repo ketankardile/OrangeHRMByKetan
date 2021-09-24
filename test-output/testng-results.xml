@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-24T13:32:10 IST" name="Suite" finished-at="2021-09-24T13:33:02 IST" duration-ms="51864">
+    <groups>
+    </groups>
+    <test started-at="2021-09-24T13:32:10 IST" name="LoginTest" finished-at="2021-09-24T13:33:02 IST" duration-ms="51864">
+      <class name="com.hrm.qa.testcases.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.hrm.qa.testcases.LoginPageTest@3e84448c]" started-at="2021-09-24T13:32:10 IST" name="setUp" finished-at="2021-09-24T13:32:16 IST" duration-ms="6367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginPageTitleTest()[pri:1, instance:com.hrm.qa.testcases.LoginPageTest@3e84448c]" started-at="2021-09-24T13:32:16 IST" name="loginPageTitleTest" finished-at="2021-09-24T13:32:16 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hrm.qa.testcases.LoginPageTest@3e84448c]" started-at="2021-09-24T13:32:16 IST" name="tearDown" finished-at="2021-09-24T13:32:17 IST" duration-ms="1131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.hrm.qa.testcases.LoginPageTest@3e84448c]" started-at="2021-09-24T13:32:17 IST" name="setUp" finished-at="2021-09-24T13:32:23 IST" duration-ms="5725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="crmLogoImageTest()[pri:2, instance:com.hrm.qa.testcases.LoginPageTest@3e84448c]" started-at="2021-09-24T13:32:23 IST" name="crmLogoImageTest" finished-at="2021-09-24T13:32:23 IST" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crmLogoImageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hrm.qa.testcases.LoginPageTest@3e84448c]" started-at="2021-09-24T13:32:23 IST" name="tearDown" finished-at="2021-09-24T13:32:24 IST" duration-ms="1129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.hrm.qa.testcases.LoginPageTest@3e84448c]" started-at="2021-09-24T13:32:25 IST" name="setUp" finished-at="2021-09-24T13:32:30 IST" duration-ms="5663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateLogin(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.hrm.qa.testcases.LoginPageTest@3e84448c]" started-at="2021-09-24T13:32:30 IST" name="validateLogin" data-provider="getCRMTestData" finished-at="2021-09-24T13:32:31 IST" duration-ms="1023" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Incorrect Username & Correct Password]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ketan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hrm.qa.testcases.LoginPageTest@3e84448c]" started-at="2021-09-24T13:32:31 IST" name="tearDown" finished-at="2021-09-24T13:32:33 IST" duration-ms="1126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.hrm.qa.testcases.LoginPageTest@3e84448c]" started-at="2021-09-24T13:32:33 IST" name="setUp" finished-at="2021-09-24T13:32:39 IST" duration-ms="6443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateLogin(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.hrm.qa.testcases.LoginPageTest@3e84448c]" started-at="2021-09-24T13:32:39 IST" name="validateLogin" data-provider="getCRMTestData" finished-at="2021-09-24T13:32:40 IST" duration-ms="1438" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Corret Username & Incorrect password]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sky]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hrm.qa.testcases.LoginPageTest@3e84448c]" started-at="2021-09-24T13:32:40 IST" name="tearDown" finished-at="2021-09-24T13:32:42 IST" duration-ms="1140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.hrm.qa.testcases.LoginPageTest@3e84448c]" started-at="2021-09-24T13:32:42 IST" name="setUp" finished-at="2021-09-24T13:32:48 IST" duration-ms="6489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateLogin(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.hrm.qa.testcases.LoginPageTest@3e84448c]" started-at="2021-09-24T13:32:48 IST" name="validateLogin" data-provider="getCRMTestData" finished-at="2021-09-24T13:32:49 IST" duration-ms="961" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Both are Incorrect]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[blue]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[red]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hrm.qa.testcases.LoginPageTest@3e84448c]" started-at="2021-09-24T13:32:49 IST" name="tearDown" finished-at="2021-09-24T13:32:50 IST" duration-ms="1143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.hrm.qa.testcases.LoginPageTest@3e84448c]" started-at="2021-09-24T13:32:50 IST" name="setUp" finished-at="2021-09-24T13:32:56 IST" duration-ms="5976" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateLogin(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.hrm.qa.testcases.LoginPageTest@3e84448c]" started-at="2021-09-24T13:32:56 IST" name="validateLogin" data-provider="getCRMTestData" finished-at="2021-09-24T13:33:00 IST" duration-ms="4298" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Both are Correct]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hrm.qa.testcases.LoginPageTest@3e84448c]" started-at="2021-09-24T13:33:00 IST" name="tearDown" finished-at="2021-09-24T13:33:02 IST" duration-ms="1126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hrm.qa.testcases.LoginPageTest -->
+    </test> <!-- LoginTest -->
+  </suite> <!-- Suite -->
+</testng-results>
