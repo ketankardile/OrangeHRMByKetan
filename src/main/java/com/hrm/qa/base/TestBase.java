@@ -39,12 +39,12 @@ public class TestBase {
 
 		if (browserType.equals("chrome"))
 		{
-			System.setProperty("webdriver.chrome.driver", "D:\\Softwares\\chromedriver_win32\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "D:\\Eclipse_Project\\orangeHRMbyketan\\Drivers\\chromedriver.exe");
 			driver = new ChromeDriver();
 		}
 
 		else if (browserType.equals("firefox")) {
-			System.setProperty("webdriver.chrome.driver", "D:\\Softwares\\geckodriver-v0.29.1-win64\\geckodriver.exe" );
+			System.setProperty("webdriver.chrome.driver", "D:\\Eclipse_Project\\orangeHRMbyketan\\Drivers\\geckodriver.exe" );
 			driver = new FirefoxDriver();
 			
 		}

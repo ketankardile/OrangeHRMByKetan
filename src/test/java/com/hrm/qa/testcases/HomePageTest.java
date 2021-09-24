@@ -30,29 +30,25 @@ public class HomePageTest extends TestBase {
 		initialization();
 		testUtil = new TestUtil();
 		loginPage = new LoginPage();
-		loginPage.login(prop.getProperty("username"), prop.getProperty("password"), null);
+		loginPage.loginforother(prop.getProperty("username"), prop.getProperty("password"));
+		homePage = new HomePage();
 	}
 	
 	
 	@Test(priority=1)
 	public void verifyHomePageTitleTest(){
 		String homePageTitle = homePage.verifyHomePageTitle();
-		Assert.assertEquals(homePageTitle, "CRMPRO","Home page title not matched");
+		Assert.assertEquals(homePageTitle, "OrangeHRM");
 	}
 	
 	@Test(priority=2)
-	public void verifyUserNameTest(){
-		
-		Assert.assertTrue(homePage.verifyCorrectUserName());
-	}
-	
-	@Test(priority=3)
-	public void verifyContactsLinkTest(){
-		
-		homePage.clickOnContactsLink();
+	public void verifyUserTab(){
+		homePage.verifyUserTab();	
 	}
 	
 	
+	//https://opensource-demo.orangehrmlive.com/index.php/admin/viewSystemUsers
+
 	
 	@AfterMethod
 	public void tearDown(){

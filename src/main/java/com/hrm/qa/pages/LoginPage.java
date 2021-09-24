@@ -41,6 +41,17 @@ public class LoginPage extends TestBase{
 		return crmLogo.isDisplayed();
 	}
 
+	
+	
+	
+	public void loginforother(String user, String pass){
+		
+		username.sendKeys(user);
+		password.sendKeys(pass);
+		loginBtn.click();
+	}
+	
+	
 	public boolean login(String type, String un, String pwd){
 
 		username.sendKeys(un);
