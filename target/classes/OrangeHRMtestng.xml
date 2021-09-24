@@ -10,11 +10,9 @@
   <test thread-count="5" name="LoginTest">
     <classes>
       <class name="com.hrm.qa.testcases.LoginPageTest"/>
-   
-    
-   
+      <class name="com.hrm.qa.testcases.HomePageTest"/>
+      
     </classes>
   </test> <!-- Test -->
-
 
 </suite> <!-- Suite -->

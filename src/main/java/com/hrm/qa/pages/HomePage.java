@@ -1,5 +1,8 @@
 package com.hrm.qa.pages;
 
+import java.util.List;
+
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.CacheLookup;
@@ -21,7 +24,7 @@ WebElement admintab;
 WebElement usermgmtab;
 
 
-@FindBy(xpath = "//a[@id = 'menu_admin_viewSystemUsers'])[1]")
+@FindBy(xpath = "((//ul[@id = 'mainMenuFirstLevelUnorderedList']//li)[1]//ul)[2]//li//a")
 WebElement usertab;
 
 
@@ -38,13 +41,15 @@ WebElement usertab;
 	}
 	
 	
-	public void verifyUserTab(){
+	public String verifyUserTab(){
 		
 		Actions act = new Actions(driver); 
 		
 		act.moveToElement(admintab).perform();
 		act.moveToElement(usermgmtab).perform();
 		act.moveToElement(usertab).click().perform();
+		return driver.getCurrentUrl();
+		
 		
 	}
 	

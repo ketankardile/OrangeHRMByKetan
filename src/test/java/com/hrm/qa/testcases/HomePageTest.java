@@ -43,15 +43,14 @@ public class HomePageTest extends TestBase {
 	
 	@Test(priority=2)
 	public void verifyUserTab(){
-		homePage.verifyUserTab();	
+		String url = homePage.verifyUserTab();	
+		Assert.assertEquals(url, "https://opensource-demo.orangehrmlive.com/index.php/admin/viewSystemUsers");
 	}
 	
 	
-	//https://opensource-demo.orangehrmlive.com/index.php/admin/viewSystemUsers
-
-	
 	@AfterMethod
-	public void tearDown(){
+	public void tearDown() throws InterruptedException{
+		Thread.sleep(1000);
 		driver.quit();
 	}
 	
