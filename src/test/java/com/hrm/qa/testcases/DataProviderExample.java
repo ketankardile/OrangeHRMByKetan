@@ -17,7 +17,6 @@ public class DataProviderExample {
 
 
 	@Test(priority = 2, dataProvider="getCRMTestData")
-	
 	public void validateLogin(String abc, String username, String pass){
 
 		System.out.println(username + "" + pass);
