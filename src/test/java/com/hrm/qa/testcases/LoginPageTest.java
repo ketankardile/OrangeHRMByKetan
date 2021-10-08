@@ -52,7 +52,7 @@ public class LoginPageTest extends TestBase{
 
 	@DataProvider
 	public Object[][] getCRMTestData(){
-		Object data[][] = TestUtil.getTestData("Sheet1");
+		Object[][] data = TestUtil.getTestData("Sheet1");
 		return data;
 	}
 
